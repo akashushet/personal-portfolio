@@ -1,0 +1,35 @@
+body {
+   padding-top: 70px;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(120deg, #0d6647, #8d248d);
+    color: rgb(242, 136, 14);
+}
+
+.skill-card {
+    background: #d6d60f;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    background: #0c93b1;
+}
+
+.project-card {
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
