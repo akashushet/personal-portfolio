@@ -1,26 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <title>Skills</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Technical Skills of Akash Umesh Shet — AIML Engineer & Developer.">
+  <title>Skills | Akash Umesh Shet</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%236366f1'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-size='48' font-family='sans-serif' font-weight='800'>AS</text></svg>">
 </head>
-
 <body>
-<nav class="navbar navbar-dark bg-dark p-3">
-  <a class="navbar-brand" href="index.html">Back</a>
-</nav>
 
-<div class="container mt-5">
-  <h2 class="mb-4">My Skills</h2>
-  <div class="row">
-    <div class="col-md-4"><div class="skill-card p-3">HTML</div></div>
-    <div class="col-md-4"><div class="skill-card p-3">CSS</div></div>
-    <div class="col-md-4"><div class="skill-card p-3">JavaScript</div></div>
-    <div class="col-md-4"><div class="skill-card p-3">Bootstrap</div></div>
+  <!-- Ambient Animated Lighting -->
+  <div class="bg-ambient">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-grid"></div>
   </div>
-</div>
 
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html#home" class="logo">
+        <span class="logo-badge">AS</span>
+        <span class="logo-text">Akash <span>Shet</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#skills" class="nav-link active">Skills</a></li>
+          <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="index.html#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-secondary btn-sm">← Back to Main Portfolio</a>
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competency Matrix</span>
+        <h2 class="section-title">Technical Skills & Technologies</h2>
+        <p class="section-desc">
+          Core technical domains and proficiencies spanning Artificial Intelligence, Software Engineering, and Modern Web Development.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- AI & ML -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">🧠</div>
+            <div>
+              <h3 class="category-title">AI & Machine Learning</h3>
+              <span class="category-subtitle">Model development & data analysis</span>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-row"><span class="skill-name">Machine Learning</span><span class="skill-badge">Core Algorithms</span></div>
+            <div class="skill-row"><span class="skill-name">Data Analytics</span><span class="skill-badge">EDA & Wrangling</span></div>
+            <div class="skill-row"><span class="skill-name">Pandas</span><span class="skill-badge">Data Structures</span></div>
+            <div class="skill-row"><span class="skill-name">NumPy</span><span class="skill-badge">Numerical Computing</span></div>
+          </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">💻</div>
+            <div>
+              <h3 class="category-title">Programming Languages</h3>
+              <span class="category-subtitle">Software craftsmanship & OOP</span>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-row"><span class="skill-name">Python</span><span class="skill-badge">Advanced Proficiency</span></div>
+            <div class="skill-row"><span class="skill-name">Java (OOPs)</span><span class="skill-badge">Simplilearn Certified</span></div>
+            <div class="skill-row"><span class="skill-name">C Programming</span><span class="skill-badge">Systems & Logic</span></div>
+            <div class="skill-row"><span class="skill-name">C++</span><span class="skill-badge">Data Structures</span></div>
+            <div class="skill-row"><span class="skill-name">JavaScript (ES6+)</span><span class="skill-badge">Scripting</span></div>
+          </div>
+        </div>
+
+        <!-- Database & Tools -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">🛠️</div>
+            <div>
+              <h3 class="category-title">Databases & Tools</h3>
+              <span class="category-subtitle">Data stores & dev workflow</span>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-row"><span class="skill-name">SQL</span><span class="skill-badge">Data Querying</span></div>
+            <div class="skill-row"><span class="skill-name">MySQL / DBMS</span><span class="skill-badge">Relational Design</span></div>
+            <div class="skill-row"><span class="skill-name">Git & GitHub</span><span class="skill-badge">Version Control</span></div>
+            <div class="skill-row"><span class="skill-name">VS Code</span><span class="skill-badge">IDE Workflow</span></div>
+            <div class="skill-row"><span class="skill-name">Jupyter Notebooks</span><span class="skill-badge">Data Science</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <p>© <span id="currentYear"></span> Akash Umesh Shet. All Rights Reserved.</p>
+      <a href="index.html" class="back-to-top-btn">Return to Portfolio Home</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
